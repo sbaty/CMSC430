@@ -1,0 +1,12 @@
+-- Variable initialization with real and Boolean variables
+
+function main returns real;
+    b: real is 5.3 + 1. - 4 / 2.0E-2;
+    c: boolean is b > 3.e2 and true or false;
+begin
+    if c then 
+        b + 1.5 - c;
+    else
+        2.e+3;
+    endif;
+end;

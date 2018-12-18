@@ -1,0 +1,17 @@
+-- testing various wrong characters.
+
+function _myFunc a:integer returns integer; 
+	fake__Var1: integer is 5;
+	fakeVar2_: integer is 3l
+
+begin 
+	if a!=3 && a>10 then 
+		5;
+	else
+		 if a%5 >7 || a<10 then 
+		 	8#3;
+		 else 
+		 	7 $ 2 ^ (2 + 4);
+		 endif;
+	endif;
+end;

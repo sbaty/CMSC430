@@ -1,0 +1,6 @@
+-- Using Boolean Expression with Relational Operator
+
+function main returns integer;
+begin
+    9 = (6 > 0);
+end;

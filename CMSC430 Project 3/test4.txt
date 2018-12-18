@@ -1,0 +1,11 @@
+// Case selection
+
+function main returns integer;
+    a: integer is 4 + 2;
+begin
+    case a is
+        when 1 => 3;
+        when 2 => (3 + 5 - 5 - 4) * 2;
+        others => 4;
+    endcase;  
+end;

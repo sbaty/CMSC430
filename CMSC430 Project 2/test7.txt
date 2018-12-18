@@ -1,0 +1,15 @@
+// Test case statement
+function main a: integer, b: integer returns integer;
+   c: integer is 
+        if a > b then
+            a rem b;
+        else 
+            a ** 2;
+        endif;
+begin
+    case a is
+        when 1 => c;
+        when 2 => (a + b / 2 - 4) * 3;
+        others => 4;
+    endcase;  
+end;

@@ -1,0 +1,8 @@
+-- Multiple integer variable initialization
+
+function main returns integer;
+    b: integer is 5 + 1 - 4;
+    c: integer is 2 + 3;
+begin
+    b + 1 - c;
+end;

@@ -1,0 +1,11 @@
+-- Undeclared Local
+
+function main a: integer returns integer;
+    b: integer is a * 2;
+begin
+    if a <= 0 then
+        b + 3;
+    else
+        c * 4;
+    endif;
+end;

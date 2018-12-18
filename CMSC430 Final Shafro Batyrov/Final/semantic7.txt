@@ -1,0 +1,7 @@
+-- Variable Initialization Mismatch
+
+function main returns integer;
+    b: integer is 5 > 0;
+begin
+    b + 1;
+end;

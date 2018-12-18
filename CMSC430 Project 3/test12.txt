@@ -1,0 +1,13 @@
+-- Nested Reduction
+
+function main returns integer;
+begin
+    reduce *
+        reduce +
+            2 + 3;
+            1;
+        endreduce; 
+        6;
+        3;
+    endreduce;    
+end;

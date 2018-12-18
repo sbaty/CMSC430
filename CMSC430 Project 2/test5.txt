@@ -1,0 +1,6 @@
+-- Parameter initialization
+
+function main a: integer returns real;
+begin
+    a + 3.2;
+end;

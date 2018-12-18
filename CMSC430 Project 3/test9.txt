@@ -1,0 +1,10 @@
+-- Two parameter declarations
+
+function main a: boolean, b: integer returns real;
+begin
+    if a then
+        b + 1;
+    else 
+        b - 1;
+    endif;  
+end;

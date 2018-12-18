@@ -1,0 +1,10 @@
+-- Conditional expression
+
+function main returns integer;
+begin
+    if 5 + 4 >= 9 then
+        6 + 9 * 3;
+    else
+        8 - 9 / 7;
+    endif;
+end;

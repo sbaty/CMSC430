@@ -1,0 +1,17 @@
+-- Nested case
+
+function main a: integer,  b: integer returns integer;
+    c: integer is 8;
+begin
+    case a is
+         when 1 => a * c;
+         when 2 => a + 5;
+         when 3 =>
+             case b is
+                 when 1 => 2;
+                 others => 19;
+             endcase;
+         when 4 => a / 2;
+         others => a + 4;
+    endcase;
+end;

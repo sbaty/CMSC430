@@ -1,0 +1,10 @@
+-- Function with a Reduction
+
+function test6 returns integer;
+begin
+    reduce *
+         2 + 8;
+         6;
+         3;
+    endreduce;    
+end;

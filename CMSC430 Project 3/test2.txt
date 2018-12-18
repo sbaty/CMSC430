@@ -1,0 +1,6 @@
+-- Relational and logical operators
+
+function main returns boolean;
+begin
+    5 + 3 > 8 and 9 / 3 = 3 or 7 - 9 < 1 and not (3 /= 1 * 7) or 6 <= 7 and 3 >= 9;
+end;

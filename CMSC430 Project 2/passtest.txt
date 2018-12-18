@@ -1,0 +1,47 @@
+//comment 1
+--Testing case statement 
+
+function my_function b: real returns boolean;
+this_var: real is 2.5E-10;
+myCase: integer is b+1;
+begin
+case (myCase) is
+when 1 =>
+if b > this_var then
+true;
+else
+false;
+endif;
+when 2 =>
+if b >= this_var and b <= 10**2 then
+false;
+else 
+true;
+endif;
+when 3 =>
+if this_var /=100 or b= 20 then
+true;
+else
+false;
+endif;
+when 4 =>
+if this_var rem 5 > 1 then
+false;
+else
+true;
+endif;
+when 5 => 
+if b-this_var < 1 and b/5 =0 then
+true;
+else
+false;
+endif; 
+when 6 =>
+if not(b>=this_var) then
+false;
+else
+true;
+endif; 
+others => false;
+endcase;
+end;

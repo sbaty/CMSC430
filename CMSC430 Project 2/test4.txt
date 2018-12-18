@@ -1,0 +1,8 @@
+-- Variable initialization
+
+function main returns real;
+    b: integer is 5 + 1 - 4;
+    d: integer is 2 rem 3;
+begin
+    b + d;
+end;

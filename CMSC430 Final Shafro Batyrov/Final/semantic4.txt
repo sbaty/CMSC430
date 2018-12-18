@@ -1,0 +1,10 @@
+-- Conditional Expression Type Mismatch
+
+function main returns integer;
+begin
+    if 6 <= 0 then
+        5 + 3.0;
+    else
+        8 * 4;
+    endif;
+end;

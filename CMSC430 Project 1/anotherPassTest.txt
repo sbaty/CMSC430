@@ -1,0 +1,31 @@
+// test comment
+
+-- another comment
+function test_1 returns boolean;
+begin
+some_id_here = 10;
+7 * 2 - 6 and 8 = 5 * (7 - 4);
+2 ** 5 / 2;
+(22 >= 32) or true;
+false or (44.5 <= 44.);
+12.52 + 1. - 0.5;
+some_id_here /= 2;
+boolean a_bool = true;
+
+// reduce, when
+reduce when a_bool;
+endreduce;
+
+// if then else not
+if (not (some_id_here ** 2) = 25) then
+real a_var = 123.54;
+else
+integer var_a_bc_d = 45;
+endif
+
+// case
+case true
+// arrow
+a_var => do_something;
+endcase;
+end;
